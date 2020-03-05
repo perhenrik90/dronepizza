@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Bodø dronepizza | Rask levert pizza til ditt nærmeste tak</title>
+    <link rel="stylesheet" type="text/css" href="kodeklubben.css"/>
+    <script>
+      function bestillPizza(navn){
+	  alert(navn+" er bestilt og er nå på vei!");
+      }
+      
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Bodø Dronepizza</h1>
+    </header>
+    <main>
+
+      <div id="omoss">
+	<p>Bodø drone-pizza er et ny oppstarta firma som lever pizza helt
+	  frem til ditt hustak. </p>
+      </div>
+      
+      <div id="pizzameny">
+	<div class="pizza-element">
+	  <h2>Glasshuset</h2>
+	  <div class="beskrivelse">
+	    <p>En enkel Pizza med nok ost til å kunne se pizzabunnen. Smaker godt etter en dag i glasshuset!</p>
+	  </div>
+	  
+	  <div class="ingredienser">
+	    <span class="ingrediens">Ost</span>
+	    <span class="ingrediens">Tomat</span>
+	    <span class="ingrediens">Skinke</span>	    
+	  </div>
+	  <div class="knapper">
+	    <a class="knapp" href="#" onclick="bestillPizza('Glasshuset')">Bestill</a>
+	  </div>
+	</div>
+
+	<div class="pizza-element">
+	  <h2>Tollboden</h2>
+	  <div class="beskrivelse">
+	    <p>En kompakt pizza med masse godt!</p>
+	  </div>
+	  
+	  <div class="ingredienser">
+	    <span class="ingrediens">Ost</span>
+	    <span class="ingrediens">Kjøttdeig</span>
+	    <span class="ingrediens">Løk</span>
+	    <span class="ingrediens">Paprika</span>	    
+	  </div>
+	  <div class="knapper">
+	    <a class="knapp" href="#" onclick="bestillPizza('Tollboden')">Bestill</a>
+	  </div>
+	</div>
+      </div>
+      <!-- slutt på pizzameny -->
+    </main>
+
+    <br/><br/>
+    <footer>
+      <p>® Bodø dronepizza 2020 | Orgnr: 999 999 999</p>
+    </footer>
+  </body>
+</html>
